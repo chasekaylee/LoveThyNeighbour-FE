@@ -1,7 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<App /> should render and match the snapshot 1`] = `
-<div>
+<ForwardRef(App__AppWrapper)>
+  <Helmet
+    defaultTitle="LoveThyNeighbour"
+    defer={true}
+    encodeSpecialCharacters={true}
+    titleTemplate="%s - LoveThyNeighbour"
+  >
+    <meta
+      content="'Connecting volunteers with those who need assistance during the Covid-19 global outbreak"
+      name="description"
+    />
+  </Helmet>
+  <Header />
   <Switch>
     <Route
       component={[Function]}
@@ -10,8 +22,28 @@ exports[`<App /> should render and match the snapshot 1`] = `
     />
     <Route
       component={[Function]}
+      exact={true}
+      path="/assistance"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/volunteer"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/volunteer/group"
+    />
+    <Route
+      component={[Function]}
+      exact={true}
+      path="/about"
+    />
+    <Route
+      component={[Function]}
     />
   </Switch>
   <GlobalStyleComponent />
-</div>
+</ForwardRef(App__AppWrapper)>
 `;

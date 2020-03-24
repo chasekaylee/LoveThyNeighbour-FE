@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a div 1`] = `
+<div>
+  <div
+    class="NavBar___default-sc-3b48xb-0 fJlVgf"
+  >
+    <a
+      aria-current="page"
+      class="HeaderLink___default-sc-1mtyaiv-0 gnJjzo active"
+      href="/"
+    >
+      <span>
+        Home
+      </span>
+    </a>
+    <a
+      class="HeaderLink___default-sc-1mtyaiv-0 gnJjzo"
+      href="/assistance"
+    >
+      <span>
+        I need assistance
+      </span>
+    </a>
+    <a
+      class="HeaderLink___default-sc-1mtyaiv-0 gnJjzo"
+      href="/volunteer"
+    >
+      <span>
+        I want to volunteer
+      </span>
+    </a>
+    <a
+      class="HeaderLink___default-sc-1mtyaiv-0 gnJjzo"
+      href="/about"
+    >
+      <span>
+        About
+      </span>
+    </a>
+  </div>
+</div>
+`;

@@ -116,7 +116,7 @@ module.exports = require('./webpack.base.babel')({
       description:
         'Connecting volunteers with those who need assistance during the Covid-19 global outbreak',
       background_color: '#fafafa',
-      theme_color: '#b1624d',
+      theme_color: '#DDE4FE',
       inject: true,
       ios: true,
       icons: [

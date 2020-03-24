@@ -36,6 +36,13 @@ export default function configureStore(initialState = {}, history) {
   // 2. routerMiddleware: Syncs the location/URL path to the state
   const middlewares = [sagaMiddleware, routerMiddleware(history)];
 
+  if (process.env.NODE_ENV !== 'production') {
+    // eslint-disable-next-line global-require
+    const { logger } = require('redux-logger');
+
+    middlewares.push(logger);
+  }
+
   const enhancers = [
     applyMiddleware(...middlewares),
     createInjectorsEnhancer({
